@@ -24,11 +24,11 @@ a:hover {
 }
 
 body {
-  margin: 20px auto 0;
+  margin: 20px auto 20px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: auto;
+  max-height: auto;
   max-width: 700px;
 }
 

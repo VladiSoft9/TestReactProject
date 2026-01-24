@@ -7,7 +7,7 @@ function App() {
 
     <>
       <Header />
-      <Products />
+      <Products name="Newest" tax={15} isAvailable={true} />
       <Footer />
     </>
 
