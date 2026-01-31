@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #213547;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: transparent;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,12 +24,14 @@ a:hover {
 }
 
 body {
-  margin: 20px auto 20px;
+  margin: 0;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  min-height: auto;
-  max-height: auto;
-  max-width: 700px;
+}
+
+#root {
+  width: 100%;
 }
 
 h1 {
